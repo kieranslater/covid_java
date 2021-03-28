@@ -1,0 +1,16 @@
+Examples of how to run
+
+Default to Canada and South Africa
+
+ java -jar out/artifacts/Covid_jar/Covid.jar
+
+Custom list of Countries - comma separated list
+
+ java -jar out/artifacts/Covid_jar/Covid.jar france,germany
+
+Custom range of dates (<list of countries> <start date> <end date>
+
+ java -jar out/artifacts/Covid_jar/Covid.jar france,germany 2020-03-01T00:00:00Z 2020-04-01T00:00:00Z
+
+
+ Will export each Country results to a separate file - <country name>_stats.csv.

@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Covid:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Covid_jar</output-path>
+    <root id="archive" name="Covid.jar">
+      <element id="module-output" name="Covid" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/json/json/20131018/json-20131018.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/json-simple-1.1.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
